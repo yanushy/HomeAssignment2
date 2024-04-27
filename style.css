@@ -1,0 +1,290 @@
+body {
+  background-color: #f9f9f9;
+  font-family: "cursive", serif;
+  color: #333;
+  margin: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px 0;
+}
+.skill-list {
+  list-style: none;
+}
+.logo {
+  font-size: 36px;
+  color: #333;
+  margin: 0;
+}
+
+.nav-links {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links li a {
+  display: flex;
+  justify-content: center;
+  color: #555;
+  font-size: 18px;
+  padding: 10px 15px;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.nav-links li a:hover {
+  color: white;
+}
+
+.nav-links-mobile {
+  display: none;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  margin-top: 10px;
+  overflow: hidden;
+  width: 40%;
+  margin-left: 30%;
+}
+li:hover {
+  background-color: #3b5998;
+  border-radius: 20px;
+  color: white;
+}
+.nav-links-mobile ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-links-mobile li a {
+  color: #333;
+  font-size: 18px;
+  padding: 15px;
+  text-decoration: none;
+  display: block;
+  transition: color 0.3s ease;
+}
+.skill-list {
+  font-size: x-large;
+  line-height: 1.5;
+}
+.cv {
+  color: #333;
+  font-size: 18px;
+  padding: 15px;
+  text-decoration: underline;
+}
+.nav-links-mobile li a:hover {
+  color: #c42428;
+  background-color: #ddd;
+}
+
+.mobile-icon {
+  display: none;
+  cursor: pointer;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+/* .contact-me {
+  flex: 1;
+} */
+.contact-me h3,
+.contact-me p {
+  margin: 1px 0;
+}
+
+.fa {
+  padding: 10px;
+  font-size: 20px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+.fa:hover {
+  opacity: 0.7;
+}
+.fa-facebook {
+  background: #3b5998;
+  color: white;
+}
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+@media screen and (max-width: 700px) {
+  .nav-links-mobile {
+    display: block;
+  } /* show it on small screens */
+}
+
+@media screen and (min-width: 701px) {
+  .nav-links-mobile {
+    display: none;
+  } /* hide it elsewhere */
+}
+@media screen and (min-width: 701px) {
+  .nav-links {
+    display: block;
+  } /* show it on small screens */
+}
+
+@media screen and (min-width: 0px) and (max-width: 699px) {
+  .nav-links {
+    display: none;
+  } /* hide it elsewhere */
+}
+.mobile-icon {
+  display: block;
+  font-size: 24px;
+}
+
+footer {
+  background-color: #345;
+  border-radius: 20px;
+  color: white;
+  text-align: center;
+  margin-top: auto;
+  padding: 20px;
+  border-top: 2px solid #fff;
+}
+
+footer a {
+  color: white;
+}
+
+.profile-container {
+  margin: auto;
+  text-align: center;
+}
+
+.profile-container p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.image-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.image-container img {
+  max-width: 68%;
+  height: auto;
+  margin: 40px;
+}
+
+#home {
+  padding: 40px 0;
+}
+
+.container p {
+  font-size: 18px;
+  line-height: 1.6;
+  color: black;
+  font-size: 20px;
+  margin-bottom: 100px;
+  line-height: 2;
+}
+.container img {
+  margin: auto;
+}
+
+#skills {
+  padding: 40px 0;
+}
+
+#projects {
+  padding: 40px 0;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.about-div {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.about-text {
+  text-align: center;
+  border-radius: 20px;
+}
+
+.about-photo {
+  width: 50%;
+  max-width: 400px;
+}
+
+.about-photo img {
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+}
+.p-text {
+  font-size: 24px;
+  color: #20283667;
+  text-align: center;
+  margin: 50px;
+  max-width: 600px;
+}
+.footer {
+  background-color: #333; /* Dark background color */
+  color: #fff; /* White text color */
+  padding: 20px 0; /* Padding top and bottom */
+}
+
+.footer-container {
+  max-width: 1200px; /* Max width of the content */
+  margin: 0 auto; /* Center the content horizontally */
+  display: flex;
+  justify-content: space-between; /* Spacing between elements */
+  align-items: center; /* Center vertically */
+}
+
+.contact-info {
+  display: flex; /* Display contact info in a single line */
+  align-items: center; /* Center vertically */
+}
+
+.contact-info h3,
+.contact-info p {
+  margin: 0 15px; /* Adjust margins */
+}
+
+.social-media {
+  display: flex;
+  align-items: center; /* Center vertically */
+}
+
+.social-icon {
+  color: #fff; /* White icon color */
+  font-size: 24px; /* Icon size */
+  margin-left: 10px; /* Spacing between icons */
+}

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Amir yanushy Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <script>
+      function myFunc() {
+        let tmp = document.querySelector(".myList");
+        if (tmp.style.display == "none") {
+          tmp.style.display = "block";
+          return;
+        }
+        tmp.style.display = "none";
+      }
+    </script>
+    <header class="headpage">
+      <nav id="navbar" class="navbar">
+        <div class="container">
+          <div class="navlinksMobile">
+            <div class="mobile-icon"></div>
+            <ul class="myList nav-links" style="display: inline-flex">
+              <li><a href="Protfolio.html" class="active"> Home Page </a></li>
+              <li>
+                <a href="aboutme.html"> <u>About </u></a>
+              </li>
+              <li><a href="skills.html"> Skills / Resume</a></li>
+              <li><a href="projects.html" style="color: red"> Projects </a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section id="home">
+        <div class="container">
+          <p>
+            During my studies, I have engaged in diverse programming projects,
+            showcasing my capabilities and creativity. Notable projects include
+            developing a graphical user-friendly interface in C# for efficiently
+            managing student grades and information across various professions.
+            Additionally, I designed an online purchasing interface for ordering
+            food from a restaurant, ensuring a smooth user experience from menu
+            selection to order completion. These projects highlight my technical
+            expertise and problem-solving skills, demonstrating my ability to
+            create practical solutions for real-world scenarios. I am excited
+            about the prospect of applying these skills to future projects and
+            challenges.
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="contact-info">
+          <h3>Contact Me</h3>
+          <p>Email: amir.yanushy@gmail.com</p>
+          <p>Phone: +972 50 228 0902</p>
+        </div>
+        <div class="social-media">
+          <a
+            href="https://www.facebook.com/amir.yanushy"
+            class="social-icon"
+            target="_blank"
+            ><i class="fa fa-facebook"></i
+          ></a>
+          <a
+            href="www.linkedin.com/in/אמיר-יאנושי-43142a245"
+            class="social-icon"
+            target="_blank"
+            ><i class="fa fa-linkedin"></i
+          ></a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
